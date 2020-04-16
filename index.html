@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset=utf-8>
     
+    <!--link font family here pls-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>VoteMonkey</title>
+</head>
+    
+<body>
+    <header>
+        <div id="headercontent">
+            <img src="#" alt="tree icon">
+            <h1>Treeville Elections</h1>
+            <a href="profiles.html" class="profbtn">Read Full Profiles</a>
+        </div>
+    </header>
+    
+    <!--start of unique page content-->
+    
+    <main>
+        <h2>It's time to elect a new Mayor Monkey!</h2>
+        <div id="issuebox"> <!--once the submit button is clicked, this will disappear-->
+            <h4>Select your top concern to see which candidate is the best choice for you:</h4>
+            <form>
+            <ul>
+                <li>
+                    <input type="radio" id="banana" value="banana" name="issue">
+                    <label for="banana">Banana shortage</label>
+                </li>
+                <li>
+                    <input type="radio" id="air" value="air" name="issue">
+                    <label for="air">Tree canopy air pollution</label>
+                </li>
+                <li>
+                    <input type="radio" id="humans" value="humans" name="issue">
+                    <label for="humans">Human invasion</label>
+                </li>
+            </ul>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <!--this div will be populated by the JavaScript-->
+        <div id="suggestion">
+        </div>
+    </main>
+    
+    <!--end of unique page content-->
+    
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script>, Treeville Elections Office</p>
+    </footer>
 </body>
 </html>
