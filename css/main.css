@@ -1,0 +1,88 @@
+body{
+    box-sizing: border-box;
+    font-family:'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+/** HEADER STYLES **/
+
+header{
+    background-color: #afe484;
+    border-bottom: #382903 solid 4px;
+    padding: 1em 0;
+}
+
+#headercontent{
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+#headertext{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Carter One', serif;
+    font-size: 1.5em;
+    color: #382903;
+    display: inline-block;
+    margin: auto;
+}
+
+#treelogo{
+    max-width: 20%;
+    display: inline-block;
+}
+
+.profbtn{
+    background-color: #382903;
+    color: #afe484;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 15%;
+    display: inline-block;
+    margin: 0.5em auto;
+}
+
+/**QUIZ PAGE CONTENT STYLES**/
+
+/**PROFILES PAGE CONTENT STYLES**/
+
+/**FOOTER STYLES**/
+footer{
+    background-color: #afe484;
+    border-top: #382903 solid 4px;
+    padding: 0.2em;
+    color: #382903;
+    text-align: right;
+}
+
+/**RESPONSIVE DESIGN**/
+
+@media screen and (min-width: 400px){
+    h1{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 700px){
+    h1{
+        font-size: 3em;
+    }
+    
+    #headercontent{
+        max-width:700px;
+    }
+}
