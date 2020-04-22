@@ -60,6 +60,66 @@ h1{
 
 /**QUIZ PAGE CONTENT STYLES**/
 
+#issuebox{
+    display: block;
+    border: 0.5em solid #afe484;
+    border-radius: 5%;
+    margin: 1em;
+    padding: 1em;
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.25em;
+    line-height: 1.15;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    padding: 0.2em;
+}
+
+h5{
+    display: inline;
+    font-size: 1.25em;
+}
+
+#submitbtn{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 0.5em;
+    background-color: #afe484;
+    color: #382903;
+    font-weight: bold;
+    border: 2px solid #382903;
+    border-radius: 10%;
+}
+
+/**SUGGESTION CONTENT AFTER CLICK**/
+
+#suggestion{
+    display: none;
+    border: 0.5em solid #afe484;
+    border-radius: 10%;
+    margin: 1em;
+    padding: 1em;
+}
+
+h6{
+    font-size: 1em;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0.5em;
+    color: black;
+}
+
+#highlight{
+    background-color: #afe484;
+}
+
 /**PROFILES PAGE CONTENT STYLES**/
 
 h2{
