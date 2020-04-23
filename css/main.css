@@ -1,3 +1,5 @@
+/**BASE STYLES**/
+
 body{
     box-sizing: border-box;
     font-family:'Noto Sans', sans-serif;
@@ -163,7 +165,6 @@ section:target{
     border: 0.5em solid #afe484;
     border-radius: 10%;
 }
-
 
 /**FOOTER STYLES**/
 footer{

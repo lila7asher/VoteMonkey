@@ -1,8 +1,14 @@
+/****** NAMES OF VARIABLES
+**************************/
+
 const submitBtn = document.querySelector("#submitbtn");
 const survey = document.querySelector("#issuebox");
 const result = document.querySelector("#suggestion");
 const candname = document.querySelector("#candname");
 const suggest = document.querySelector("#suggestlink");
+
+/****FUNCTION WHEN SUBMIT BUTTON
+IS CLICKED *********/
 
 submitBtn.addEventListener("click", ()=>{
     if(document.querySelector("#banana").checked){
