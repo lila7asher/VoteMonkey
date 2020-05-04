@@ -159,6 +159,7 @@ h3{
     display: block;
     max-width: 90%;
     margin: auto;
+    padding-top: 1em;
 }
 
 section:target{
@@ -174,6 +175,10 @@ footer{
     color: #382903;
     text-align: right;
     margin-top: 1em;
+}
+
+footer p{
+    margin-right: 1.5em;
 }
 
 /**RESPONSIVE DESIGN**/
